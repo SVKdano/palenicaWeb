@@ -16,7 +16,13 @@ body {
     padding: 10px 20px;
 }
 
+.header a {
+    color: inherit;
+    text-decoration: none;
+}
+
 .header-logo {
+    display: block;
     height: 60px;
     width: auto;
 }
@@ -38,6 +44,8 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
+    color: inherit;
+    text-decoration: none;
 }
 
 .half::before {
@@ -101,6 +109,11 @@ body {
 
     .header-title {
         grid-column: 2;
+    }
+
+    .header-title-long {
+        font-size: min(4.2vw, 1.25rem);
+        white-space: nowrap;
     }
 
     .split {

@@ -13,9 +13,9 @@
         </header>
 
         <main class="split">
-            <div class="half half-palenica">
+            <a href="{{ route('palenica') }}" class="half half-palenica">
                 <h1>PÁLENICA</h1>
-            </div>
+            </a>
             <div class="divider"></div>
             <div class="half half-mustaren">
                 <h1>MUŠTÁREŇ</h1>
