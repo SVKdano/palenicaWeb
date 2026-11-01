@@ -13,11 +13,11 @@
         </header>
 
         <main class="split">
-            <div class="half">
+            <div class="half half-palenica">
                 <h1>PÁLENICA</h1>
             </div>
             <div class="divider"></div>
-            <div class="half">
+            <div class="half half-mustaren">
                 <h1>MUŠTÁREŇ</h1>
             </div>
         </main>

@@ -37,6 +37,35 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+}
+
+.half::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-mask-image: linear-gradient(to right, transparent, #000 25%, #000 75%, transparent),
+                        linear-gradient(to bottom, transparent, #000 25%, #000 75%, transparent);
+    -webkit-mask-composite: source-in;
+    mask-image: linear-gradient(to right, transparent, #000 25%, #000 75%, transparent),
+                linear-gradient(to bottom, transparent, #000 25%, #000 75%, transparent);
+    mask-composite: intersect;
+}
+
+.half h1 {
+    position: relative;
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.9);
+}
+
+.half-palenica::before {
+    background-image: url('../images/slivkynew.png');
+}
+
+.half-mustaren::before {
+    background-image: url('../images/jablkonew.png');
 }
 
 .divider {
@@ -51,6 +80,10 @@ body {
     text-align: center;
     font-size: 0.8rem;
     letter-spacing: 1px;
+}
+
+.footer-author {
+    margin-left: 30px;
 }
 
 @media (max-width: 768px) {
