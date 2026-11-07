@@ -14,9 +14,9 @@
                 <h1>PÁLENICA</h1>
             </a>
             <div class="divider"></div>
-            <div class="half half-mustaren">
+            <a href="{{ route('mustaren') }}" class="half half-mustaren">
                 <h1>MUŠTÁREŇ</h1>
-            </div>
+            </a>
         </main>
 
         <footer class="footer">

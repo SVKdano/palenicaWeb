@@ -1,4 +1,5 @@
 @php($isPalenica = request()->is('palenica', 'palenica/*'))
+@php($isMustaren = request()->is('mustaren', 'mustaren/*'))
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -8,6 +9,8 @@
         @if ($isPalenica)
             <link rel="stylesheet" href="{{ asset('css/palenica.css') }}?v={{ filemtime(public_path('css/palenica.css')) }}">
             <script src="{{ asset('js/palenica.js') }}?v={{ filemtime(public_path('js/palenica.js')) }}" defer></script>
+        @elseif ($isMustaren)
+            <link rel="stylesheet" href="{{ asset('css/mustaren.css') }}?v={{ filemtime(public_path('css/mustaren.css')) }}">
         @else
             <link rel="stylesheet" href="{{ asset('css/welcome.css') }}?v={{ filemtime(public_path('css/welcome.css')) }}">
         @endif
@@ -16,6 +19,8 @@
     <body>
         @if ($isPalenica)
             @include('partials.palenica-header')
+        @elseif ($isMustaren)
+            @include('partials.mustaren-header')
         @else
             @include('partials.welcome-header')
         @endif

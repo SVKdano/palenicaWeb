@@ -13,3 +13,7 @@ Route::get('/palenica', function () {
 Route::get('/palenica/kontakt', function () {
     return view('palenica.kontakt');
 })->name('palenica.kontakt');
+
+Route::get('/mustaren', function () {
+    return view('mustaren');
+})->name('mustaren');
