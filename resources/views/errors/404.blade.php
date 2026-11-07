@@ -6,12 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{{ config('app.name', 'Laravel') }}</title>
         @if ($isPalenica)
-            <link rel="stylesheet" href="{{ asset('css/palenica.css') }}">
-            <script src="{{ asset('js/palenica.js') }}" defer></script>
+            <link rel="stylesheet" href="{{ asset('css/palenica.css') }}?v={{ filemtime(public_path('css/palenica.css')) }}">
+            <script src="{{ asset('js/palenica.js') }}?v={{ filemtime(public_path('js/palenica.js')) }}" defer></script>
         @else
-            <link rel="stylesheet" href="{{ asset('css/welcome.css') }}">
+            <link rel="stylesheet" href="{{ asset('css/welcome.css') }}?v={{ filemtime(public_path('css/welcome.css')) }}">
         @endif
-        <link rel="stylesheet" href="{{ asset('css/error.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/error.css') }}?v={{ filemtime(public_path('css/error.css')) }}">
     </head>
     <body>
         @if ($isPalenica)
