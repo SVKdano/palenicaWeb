@@ -9,3 +9,7 @@ Route::get('/', function () {
 Route::get('/palenica', function () {
     return view('palenica');
 })->name('palenica');
+
+Route::get('/palenica/kontakt', function () {
+    return view('palenica.kontakt');
+})->name('palenica.kontakt');

@@ -24,6 +24,6 @@
                 <li><a href="{{ url('/palenica/cena-kvasu') }}">Cena kvasu</a></li>
             </ul>
         </li>
-        <li class="navbar-item"><a href="{{ url('/palenica/kontakt') }}" class="navbar-link">Kontakt</a></li>
+        <li class="navbar-item"><a href="{{ route('palenica.kontakt') }}" class="navbar-link">Kontakt</a></li>
     </ul>
 </nav>
