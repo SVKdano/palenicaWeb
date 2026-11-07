@@ -5,15 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{{ config('app.name', 'Laravel') }}</title>
         <link rel="stylesheet" href="{{ asset('css/palenica.css') }}">
+        <script src="{{ asset('js/palenica.js') }}" defer></script>
     </head>
     <body>
-        <header class="header">
-            <a href="{{ route('palenica') }}">
-                <img src="{{ asset('images/palenica.png') }}" alt="Pálenica logo" class="header-logo">
-            </a>
-            <span class="header-title">
-                <a href="{{ route('welcome') }}">STRUŽINKA</a> - <a href="{{ route('palenica') }}">PÁLENICA</a>
-            </span>
-        </header>
+        @include('partials.palenica-header')
     </body>
 </html>

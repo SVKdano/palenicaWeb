@@ -7,10 +7,7 @@
         <link rel="stylesheet" href="{{ asset('css/welcome.css') }}">
     </head>
         <body>
-        <header class="header">
-            <img src="{{ asset('images/struzinka.png') }}" alt="Stružinka logo" class="header-logo">
-            <span class="header-title">STRUŽINKA</span>
-        </header>
+        @include('partials.welcome-header')
 
         <main class="split">
             <a href="{{ route('palenica') }}" class="half half-palenica">
