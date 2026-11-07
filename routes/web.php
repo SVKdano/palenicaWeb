@@ -17,3 +17,7 @@ Route::get('/palenica/kontakt', function () {
 Route::get('/mustaren', function () {
     return view('mustaren');
 })->name('mustaren');
+
+Route::get('/mustaren/kontakt', function () {
+    return view('mustaren.kontakt');
+})->name('mustaren.kontakt');
