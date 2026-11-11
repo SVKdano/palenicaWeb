@@ -18,6 +18,11 @@
     line-height: 1.5;
 }
 
+.kontakt-phones {
+    list-style: none;
+    margin: 8px 0;
+}
+
 .kontakt-map {
     width: 100%;
     max-width: 600px;
@@ -28,5 +33,16 @@
 @media (max-width: 768px) {
     .kontakt-map {
         height: 280px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .kontakt-text,
+    .kontakt-map {
+        max-width: 900px;
+    }
+
+    .kontakt-map {
+        height: 500px;
     }
 }

@@ -3,7 +3,7 @@
         <img src="{{ asset('images/palenica.png') }}" alt="Pálenica logo" class="header-logo">
     </a>
     <span class="header-title">
-        <a href="{{ route('welcome') }}">STRUŽINKA</a> - <a href="{{ route('palenica') }}">PÁLENICA</a>
+        <a href="{{ route('welcome') }}">STRUŽINA</a> - <a href="{{ route('palenica') }}">PÁLENICA</a>
     </span>
 </header>
 

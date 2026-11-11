@@ -12,7 +12,15 @@
         @include('partials.palenica-header')
 
         <main class="kontakt">
-            <p class="kontakt-text">Kontaktovať nás môžete na čísle: +421903405278 alebo osobne</p>
+            <div class="kontakt-text">
+                <p>Kontaktovať nás môžete na jednom z nasledujúcich čísel:</p>
+                <ul class="kontakt-phones">
+                    <li>+421903405278</li>
+                    <li>+42142/4424050</li>
+                    <li>+421902163466</li>
+                </ul>
+                <p>alebo osobne na adrese: Pružina 393, 018 22 Pružina</p>
+            </div>
             <iframe
                 class="kontakt-map"
                 src="https://maps.google.com/maps?q=Stru%C5%BEinka%2C%20Pru%C5%BEina%20393%2C%20018%2022%20Pru%C5%BEina&z=15&output=embed"

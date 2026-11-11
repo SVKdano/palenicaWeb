@@ -13,7 +13,13 @@
         <div class="aktuality">
             <h1>AKTUALITY</h1>
             <h3>Tešíme sa na vašu návštevu</h3>
-            <h3>Kontaktovať nás môžete na čísle: +421903405278 alebo osobne</h3>
+            <h3>Kontaktovať nás môžete na jednom z nasledujúcich čísel:</h3>
+            <ul class="aktuality-phones">
+                <li>+421903405278</li>
+                <li>+42142/4424050</li>
+                <li>+421902163466</li>
+            </ul>
+            <h3>alebo osobne na adrese: Pružina 393, 018 22 Pružina</h3>
             <iframe
                 class="aktuality-map"
                 src="https://maps.google.com/maps?q=Stru%C5%BEinka%2C%20Pru%C5%BEina%20393%2C%20018%2022%20Pru%C5%BEina&z=15&output=embed"
