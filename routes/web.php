@@ -14,6 +14,10 @@ Route::get('/palenica/kontakt', function () {
     return view('palenica.kontakt');
 })->name('palenica.kontakt');
 
+Route::get('/palenica/products', function () {
+    return view('palenica.products');
+})->name('palenica.products');
+
 Route::get('/mustaren', function () {
     return view('mustaren');
 })->name('mustaren');
