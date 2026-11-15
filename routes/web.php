@@ -25,3 +25,7 @@ Route::get('/mustaren', function () {
 Route::get('/mustaren/kontakt', function () {
     return view('mustaren.kontakt');
 })->name('mustaren.kontakt');
+
+Route::get('/mustaren/products', function () {
+    return view('mustaren.products');
+})->name('mustaren.products');
