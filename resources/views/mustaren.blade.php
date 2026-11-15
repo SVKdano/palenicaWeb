@@ -18,7 +18,7 @@
                 <li>+42142/4424050</li>
                 <li>+421902163466</li>
             </ul>
-            <h3>alebo osobne na adrese: Pružina 393, 018 22 Pružina</h3>
+            <h3>alebo osobne na adrese:<br>Pružina 393, 018 22 Pružina</h3>
             <iframe
                 class="aktuality-map"
                 src="https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1sStru%C5%BEinka,+Pru%C5%BEina+393,+018+22+Pru%C5%BEina!6i15"

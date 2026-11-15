@@ -17,21 +17,21 @@
                     <img src="{{ asset('images/palenica_hruska.png') }}" alt="Pružinská Hruškovica" class="product-image">
                     <strong class="product-name">Pružinská Hruškovica</strong>
                 </div>
-                <span class="product-price">x,yz€/l</span>
+                <span class="product-price">14€/l a.</span>
             </div>
             <div class="product">
                 <div class="product-info">
                     <img src="{{ asset('images/palenica_jablko.png') }}" alt="Pružinská Jablkovica" class="product-image">
                     <strong class="product-name">Pružinská Jablkovica</strong>
                 </div>
-                <span class="product-price">x,yz€/l</span>
+                <span class="product-price">14€/l a.</span>
             </div>
             <div class="product">
                 <div class="product-info">
                     <img src="{{ asset('images/palenica_slivka.png') }}" alt="Pružinská Slivovica" class="product-image">
                     <strong class="product-name">Pružinská Slivovica</strong>
                 </div>
-                <span class="product-price">x,yz€/l</span>
+                <span class="product-price">14€/l a.</span>
             </div>
         </main>
     </body>

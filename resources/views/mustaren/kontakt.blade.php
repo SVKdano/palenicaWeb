@@ -18,7 +18,7 @@
                     <li>+42142/4424050</li>
                     <li>+421902163466</li>
                 </ul>
-                <p>alebo osobne na adrese: Pružina 393, 018 22 Pružina</p>
+                <p>alebo osobne na adrese:<br>Pružina 393, 018 22 Pružina</p>
             </div>
             <iframe
                 class="kontakt-map"

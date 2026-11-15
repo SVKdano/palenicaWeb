@@ -138,6 +138,7 @@ button.navbar-link::after {
     height: 350px;
     margin-top: 16px;
     border: 1px solid #333;
+    border-radius: 12px;
 }
 
 @media (max-width: 768px) {
