@@ -16,7 +16,7 @@
                 <li><a href="{{ url('/palenica/sucasnost') }}">Súčasnosť</a></li>
             </ul>
         </li>
-        <li class="navbar-item"><a href="{{ url('/palenica/cennik') }}" class="navbar-link">Cenník</a></li>
+        <li class="navbar-item"><a href="{{ route('palenica.products') }}" class="navbar-link">Cenník</a></li>
         <li class="navbar-item">
             <button type="button" class="navbar-link">Kvas</button>
             <ul class="navbar-dropdown">
