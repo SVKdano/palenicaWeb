@@ -23,7 +23,7 @@
             </div>
             <iframe
                 class="kontakt-map"
-                src="https://maps.google.com/maps?q=Stru%C5%BEinka%2C%20Pru%C5%BEina%20393%2C%20018%2022%20Pru%C5%BEina&z=15&output=embed"
+                src="https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1sStru%C5%BEinka,+Pru%C5%BEina+393,+018+22+Pru%C5%BEina!6i15"
                 title="Mapa: Stružinka, Pružina 393, 018 22 Pružina"
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
